@@ -9,7 +9,7 @@ const btn = document.querySelector("#resetTimer")
 let intervalID = window.setInterval(subtractFromCountdown, tick)
 
 btn.addEventListener("click", function handleResetClick(event) {
-  console.log(secondsLeft);
+  console.log(secondsLeft + 12);
   secondsLeft = 3;
   updateDisplay(secondsLeft);
   let body = document.querySelector("body")
