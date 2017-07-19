@@ -13,7 +13,7 @@ btn.addEventListener("click", function handleResetClick(event) {
   secondsLeft = 3;
   updateDisplay(secondsLeft);
   let body = document.querySelector("body")
-  body.style.backgroundColor = "white";
+  body.style.backgroundColor = "red";
   body.style.color = "black";
 });
 
